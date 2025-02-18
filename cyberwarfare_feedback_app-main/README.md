@@ -9,7 +9,7 @@ A simple feedback web application built with the MERN stack, featuring a user-fr
 - Built using React, Node.js, Express, and MongoDB
 
 ## Live Demo
-[Live Application - Frontend](https://67b44439eb54793180f9d5d6--relaxed-pegasus-043ea6.netlify.app/)
+[Live Application - Frontend](https://cyberwarfare-feedback-assignment.vercel.app/)
 
 ## Installation & Setup
 Follow these steps to set up the application on your local system:
@@ -67,5 +67,5 @@ Make sure you have the following installed:
 ## Technologies Used
 - **Frontend**: React, Bootstrap, axios
 - **Backend**: Node.js, Express.js, MongoDB
-- **Deployment**: Render (Backend), Netlify (Frontend)
+- **Deployment**: Render (Backend), Vercel (Frontend)
 
