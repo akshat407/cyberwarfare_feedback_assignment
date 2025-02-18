@@ -7,7 +7,7 @@ export default function FeedbackList() {
   const [feedbacks, setFeedbacks] = useState([]);
   const navigate = useNavigate(); // ✅ Use navigate to go back
 
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://cyberwarfare-feedback-assignment.onrender.com";
 
   useEffect(() => {
     axios.get(`${API_URL}/feedback`)

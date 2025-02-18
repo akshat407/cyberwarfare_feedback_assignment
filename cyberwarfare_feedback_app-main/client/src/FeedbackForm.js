@@ -8,7 +8,7 @@ export default function FeedbackForm() {
   const [submitted, setSubmitted] = useState(false);
   const navigate = useNavigate(); // ✅ Use useNavigate for navigation
 
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://cyberwarfare-feedback-assignment.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
