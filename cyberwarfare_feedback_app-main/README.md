@@ -22,8 +22,8 @@ Make sure you have the following installed:
 ### Backend Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/feedback-app.git
-   cd feedback-app/server
+   git clone https://github.com/akshat407/cyberwarfare_feedback_assignment.git
+   cd cyberwarfare_feedback_app-main/server
    ```
 2. Install dependencies:
    ```sh
