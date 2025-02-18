@@ -1,0 +1,85 @@
+.feedback-form-container {
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #575fcf;
+    border-radius: 5px;
+    background: #2d2d3f;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .input-field::placeholder {
+    color: #aaa;
+  }
+  
+  .textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background: #575fcf;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px; /* Add spacing between buttons */
+  }
+  
+  .view-feedback-button {
+    background: #32cd32;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px; /* Ensure proper spacing */
+    transition: 0.3s;
+  }
+  
+  .view-feedback-button:hover {
+    background: #28a428;
+  }
+  
+  
+  .submit-button:hover {
+    background: #3c3cff;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: white;
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .error-message {
+    color: #ff4757;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  

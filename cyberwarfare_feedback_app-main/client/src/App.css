@@ -1,0 +1,36 @@
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #ffdd57;
+}
+
+.view-feedback-button {
+  background: #32cd32;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.view-feedback-button:hover {
+  background: #28a428;
+}
