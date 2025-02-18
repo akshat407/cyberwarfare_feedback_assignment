@@ -62,7 +62,7 @@ Make sure you have the following installed:
 4. Deploy the service and get the backend URL.
 
 ### Deploying Frontend on Netlify
-1. Follow the on-screen instructions to deploy.
+1. Follow the on-screen instructions to deploy. 
 
 ## Technologies Used
 - **Frontend**: React, Bootstrap, axios
